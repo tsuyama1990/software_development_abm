@@ -40,30 +40,56 @@ class FBSAgent:
         self.current_state = FBSState.REQUIREMENTS
         self.rework_count = 0
 
-        # Generate individual matrix based on mean and high CI
-        self.transition_matrix = self._generate_matrix(config.mean_matrix, config.high_matrix)
+        # Generate individual matrix based on mean and high CI, applying scaling penalties
+        self.transition_matrix = self._generate_matrix(
+            config.mean_matrix,
+            config.high_matrix,
+            config.is_resistant,
+            config.resistant_speed_factor,
+            config.velocity_modifier,
+        )
 
     def _generate_matrix(
-        self, mean: list[list[float]], high: list[list[float]],
+        self,
+        mean: list[list[float]],
+        high: list[list[float]],
+        is_resistant: bool,
+        resistant_speed_factor: float,
+        velocity_modifier: float,
     ) -> list[list[float]]:
         """
         Generate a stochastic transition matrix for this agent.
 
         Formula: T_i = mean + rand() * (high - mean).
+        Applies resistance and velocity modifiers to transition probabilities.
         Rows must sum to 1.0.
         """
         mat = []
+        rng = np.random.default_rng()
         for i in range(len(mean)):
             row = []
-            rng = np.random.default_rng()
             for j in range(len(mean[i])):
                 val = mean[i][j] + rng.uniform(0, 1) * (high[i][j] - mean[i][j])
+
+                # Apply scaling modifiers to all state changes (not staying in current state)
+                if i != j:
+                    val *= velocity_modifier
+                    if is_resistant:
+                        val *= resistant_speed_factor
+
                 row.append(max(0.0, val))  # ensure no negative probabilities
 
-            # Normalize row to sum to 1.0
-            row_sum = sum(row)
-            if row_sum > 0:
+            # Adjust the "stay" probability (diagonal element) so row sums to 1.0
+            diagonal_index = i
+            non_diagonal_sum = sum(row) - row[diagonal_index]
+
+            if non_diagonal_sum >= 1.0:
+                # If non-diagonal probabilities exceed 1, normalize the whole row
+                row_sum = sum(row)
                 row = [x / row_sum for x in row]
+            else:
+                row[diagonal_index] = 1.0 - non_diagonal_sum
+
             mat.append(row)
         return mat
 

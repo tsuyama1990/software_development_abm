@@ -26,6 +26,7 @@ import numpy as np
 from abm.agent import FBSAgent
 from abm.config import FBSState
 from abm.metrics import RunMetrics
+from abm.scaling import ScalingPenalties
 
 
 class WaterfallSimulation:
@@ -35,12 +36,32 @@ class WaterfallSimulation:
     Features global phase synchronization gates (SRR, SFR, PDR, CDR).
     """
 
-    def __init__(self, agents: list[FBSAgent]) -> None:
+    def __init__(
+        self,
+        agents: list[FBSAgent],
+        scaling_penalties: ScalingPenalties | None = None,
+        gate_review_hours: float = 0.0,
+        cascade_low_delay: float = 0.0,
+        cascade_high_delay: float = 0.0,
+        n_teams_baseline: int = 12,
+    ) -> None:
         """Initialize the simulation with a list of agents."""
         self.agents = agents
         self.time_step = 0
         self.effort_hours = 0.0
         self.rework_hours = 0.0
+
+        # Phase 2 delays
+        self.scaling_penalties = scaling_penalties
+        self.gate_review_hours = gate_review_hours
+        self.cascade_low_delay = cascade_low_delay
+        self.cascade_high_delay = cascade_high_delay
+        self.n_teams_baseline = n_teams_baseline
+        self.global_delay = 0.0
+
+        # Teams involved for scaling calculations
+        self.team_ids = {a.sub_module_id for a in self.agents}
+        self.n_total_teams = len(self.team_ids)
 
         # The current phase is defined by the minimum state of any agent.
         # Phase 0 = Requirements (R->F)
@@ -56,7 +77,23 @@ class WaterfallSimulation:
             return  # pragma: no cover
 
         min_state = min(agent.current_state for agent in self.agents)
-        self.current_phase = int(min_state)
+        new_phase = int(min_state)
+
+        # Phase has advanced (sync gate reached)
+        if new_phase > self.current_phase and self.scaling_penalties:
+            # Add coordination delay for the sync gate
+            self.global_delay += self.scaling_penalties.get_coordination_delay(
+                n_teams=self.n_total_teams,
+                n_teams_baseline=self.n_teams_baseline,
+                base_delay=self.gate_review_hours,
+            )
+            # Add communication delay for the cascade
+            self.global_delay += self.scaling_penalties.get_communication_delay(
+                low_delay=self.cascade_low_delay,
+                high_delay=self.cascade_high_delay,
+            )
+
+        self.current_phase = new_phase
 
     def step(self) -> bool:
         """
@@ -67,6 +104,11 @@ class WaterfallSimulation:
 
         """
         self._update_phase()
+
+        if self.global_delay >= 1.0:
+            self.global_delay -= 1.0
+            self.time_step += 1
+            return False
 
         if self.current_phase == int(FBSState.DOCUMENTATION):
             return True # All done

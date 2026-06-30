@@ -1,5 +1,4 @@
-"""
-Phase 1: Foundation (Reproduce Bott & Mesmer 2019).
+"""Phase 1: Foundation (Reproduce Bott & Mesmer 2019).
 
 BLUEPRINT:
 Data Flow:
@@ -26,8 +25,7 @@ from abm.waterfall import WaterfallSimulation
 
 
 def build_program() -> tuple[list[AgentConfig], list[AgentConfig]]:
-    """
-    Build the 101-agent team structure as defined in the paper.
+    """Build the 101-agent team structure as defined in the paper.
 
     - 1 Program Lead
     - 4 Module Leads

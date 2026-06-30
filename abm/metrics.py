@@ -1,5 +1,4 @@
-"""
-Metrics Module for the Software Development ABM.
+"""Metrics Module for the Software Development ABM.
 
 BLUEPRINT:
 Data Flow:
@@ -43,8 +42,7 @@ class MetricsCollector:
         self.runs.append(metrics)
 
     def get_statistics(self) -> dict[str, float]:
-        """
-        Compute mean and std dev for all collected metrics.
+        """Compute mean and std dev for all collected metrics.
 
         Returns empty dictionary if no runs are collected.
         """

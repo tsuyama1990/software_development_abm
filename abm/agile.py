@@ -28,6 +28,7 @@ import numpy as np
 from abm.agent import FBSAgent
 from abm.config import FBSState
 from abm.metrics import RunMetrics
+from abm.scaling import ScalingPenalties
 
 
 class AgileSimulation:
@@ -38,12 +39,33 @@ class AgileSimulation:
     """
 
     def __init__(
-        self, leads: list[FBSAgent], agents: list[FBSAgent], functions_per_team: int = 10,
+        self,
+        leads: list[FBSAgent],
+        agents: list[FBSAgent],
+        functions_per_team: int = 10,
+        scaling_penalties: ScalingPenalties | None = None,
+        inter_team_meeting_hours: float = 0.0,
+        scrum_low_delay: float = 0.0,
+        scrum_high_delay: float = 0.0,
+        scrum_velocity_modifier: float = 1.0,
+        daily_scrum_interval: int = 24,
+        n_teams_baseline: int = 12,
     ) -> None:
         """Initialize with program/module leads and sub-module agents."""
         self.leads = leads
         self.agents = agents
         self.functions_per_team = functions_per_team
+
+        # Scaling parameters
+        self.scaling_penalties = scaling_penalties
+        self.inter_team_meeting_hours = inter_team_meeting_hours
+        self.scrum_low_delay = scrum_low_delay
+        self.scrum_high_delay = scrum_high_delay
+        self.scrum_velocity_modifier = scrum_velocity_modifier
+        self.daily_scrum_interval = daily_scrum_interval
+        self.n_teams_baseline = n_teams_baseline
+
+        self.team_delays: dict[int, float] = defaultdict(float)
 
         # Group agents by sub_module_id
         self.teams: dict[int, list[FBSAgent]] = defaultdict(list)
@@ -87,13 +109,49 @@ class AgileSimulation:
 
         self.planning_complete = True
 
+    def _apply_daily_scrum_delays(self) -> None:
+        if (self.scaling_penalties and self.daily_scrum_interval > 0 and
+            self.time_step > 0 and self.time_step % self.daily_scrum_interval == 0):
+            for team_id in self.teams:
+                delay = self.scaling_penalties.get_communication_delay(
+                    self.scrum_low_delay, self.scrum_high_delay,
+                )
+                self.team_delays[team_id] += delay
+
+    def _handle_team_done(self, team_id: int, team: list[FBSAgent]) -> None:
+        self.team_backlogs[team_id].pop(0)
+
+        if self.scaling_penalties:
+            # Calculate coordination cost for sprint review
+            module_id = team[0].module_id
+            n_dependent_teams = sum(
+                1 for t in self.teams.values() if t and t[0].module_id == module_id
+            )
+
+            delay = self.scaling_penalties.get_coordination_delay(
+                n_teams=n_dependent_teams,
+                n_teams_baseline=self.n_teams_baseline,
+                base_delay=self.inter_team_meeting_hours,
+            )
+            self.team_delays[team_id] += delay
+
+        if self.team_backlogs[team_id]:
+            for a in team:
+                a.current_state = FBSState.REQUIREMENTS
+
     def step(self) -> None:
         """Execute one time step (1 hour) of the parallel sprints."""
         rng = np.random.default_rng()
 
+        self._apply_daily_scrum_delays()
+
         for team_id, team in self.teams.items():
             if not self.team_backlogs[team_id]:
                 continue # Team is done with all its functions
+
+            if self.team_delays[team_id] >= 1.0:
+                self.team_delays[team_id] -= 1.0
+                continue
 
             # Team members work on the current function
             for a in team:
@@ -106,11 +164,7 @@ class AgileSimulation:
             # Check if team completed a function
             team_done = all(a.current_state == FBSState.DOCUMENTATION for a in team)
             if team_done:
-                self.team_backlogs[team_id].pop(0)
-
-                if self.team_backlogs[team_id]:
-                    for a in team:
-                        a.current_state = FBSState.REQUIREMENTS
+                self._handle_team_done(team_id, team)
 
         self.time_step += 1
 
