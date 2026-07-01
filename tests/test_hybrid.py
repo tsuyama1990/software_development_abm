@@ -1,7 +1,6 @@
 """Tests for Phase 3 Hybrid Models."""
 
 
-import numpy as np
 
 from abm.agent import FBSAgent
 from abm.agile import AgileSimulation
@@ -191,8 +190,6 @@ def test_hierarchy_ordering() -> None:
 
     To make this deterministic, we mock random components.
     """
-    np.random.seed(42)  # For deterministic execution where we rely on base rng
-
     agents_cfg = [AgentConfig(agent_id=i, module_id=1, sub_module_id=1) for i in range(1, 11)]
 
     # 1) Waterfall

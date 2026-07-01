@@ -1,4 +1,5 @@
-"""Waterfall Simulation Module.
+"""
+Waterfall Simulation Module.
 
 BLUEPRINT:
 Data Flow:
@@ -29,7 +30,8 @@ from abm.scaling import ScalingPenalties
 
 
 class WaterfallSimulation:
-    """Simulates a software project using the Waterfall methodology.
+    """
+    Simulates a software project using the Waterfall methodology.
 
     Features global phase synchronization gates (SRR, SFR, PDR, CDR).
     """
@@ -94,7 +96,8 @@ class WaterfallSimulation:
         self.current_phase = new_phase
 
     def step(self) -> bool:
-        """Execute one time step (1 hour) of the simulation.
+        """
+        Execute one time step (1 hour) of the simulation.
 
         Returns:
             bool: True if the simulation is complete (all agents in state D), False otherwise.
@@ -131,7 +134,8 @@ class WaterfallSimulation:
         return self.current_phase == int(FBSState.DOCUMENTATION)
 
     def run(self) -> RunMetrics:
-        """Run the simulation to completion.
+        """
+        Run the simulation to completion.
 
         Returns:
             RunMetrics: Metrics for this simulation run.

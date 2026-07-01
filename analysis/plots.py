@@ -1,4 +1,5 @@
-"""Plotting utilities for Phase 1 simulation results.
+"""
+Plotting utilities for Phase 1 simulation results.
 
 BLUEPRINT:
 Data Flow:
@@ -12,6 +13,7 @@ Module Boundaries:
 """
 
 from collections.abc import Sequence
+from pathlib import Path
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -21,7 +23,8 @@ def plot_scaling_curve(
     results: list[dict[str, float]],
     filename: str = "scaling_curve.png",
 ) -> None:
-    """Plot the scaling curve of team sizes versus Agile advantage.
+    """
+    Plot the scaling curve of team sizes versus Agile advantage.
 
     Args:
         results: List of dictionaries containing scaling simulation results.
@@ -56,7 +59,8 @@ def plot_multi_process_comparison(
     metrics_dict: dict[str, dict[str, float]],
     filename: str = "phase3_comparison.png",
 ) -> None:
-    """Plot a multi-process bar chart comparison for Phase 3.
+    """
+    Plot a multi-process bar chart comparison for Phase 3.
 
     Args:
         metrics_dict: A dictionary mapping process mode names (e.g., 'Agile')
@@ -106,7 +110,8 @@ def plot_3way_comparison(
     metrics_dict: dict[str, dict[str, float]],
     filename: str = "phase4_comparison.png",
 ) -> None:
-    """Plot a multi-process bar chart comparison for Phase 4 (NO_AI vs AI_RAW vs AI_REACT).
+    """
+    Plot a multi-process bar chart comparison for Phase 4 (NO_AI vs AI_RAW vs AI_REACT).
 
     Expects metrics_dict to have process mode keys, and values are dicts with AIMode keys.
     """
@@ -141,7 +146,8 @@ def plot_phase_diagram(
     results: list[dict[str, float | str]],
     filename: str = "phase4_diagram.png",
 ) -> None:
-    """Plot the phase diagram from a parameter sweep.
+    """
+    Plot the phase diagram from a parameter sweep.
 
     results should have ai_speed, ai_rework, and winner.
     """
@@ -183,7 +189,8 @@ def plot_histogram(
     filename: str,
     color: str = "skyblue",
 ) -> None:
-    """Plot and save a histogram of simulation results.
+    """
+    Plot and save a histogram of simulation results.
 
     Args:
         data: Sequence of numeric values to plot.
@@ -215,3 +222,157 @@ def plot_histogram(
     plt.tight_layout()
     plt.savefig(filename)
     plt.close()
+
+def plot_rework_fraction(
+    metrics_dict: dict[str, dict[str, float]],
+    filename: str = "phase5_rework_fraction.png",
+) -> None:
+    """
+    Plot a stacked bar chart of productive vs rework time.
+
+    Args:
+        metrics_dict: dict mapping scenario name to metrics containing 'time' and 'rework'.
+        filename: Output filename for the PNG image.
+
+    """
+    labels = list(metrics_dict.keys())
+
+    times = [metrics_dict[L].get("time", 0.0) for L in labels]
+    reworks = [metrics_dict[L].get("rework", 0.0) for L in labels]
+
+    productive = [t - r for t, r in zip(times, reworks, strict=False)]
+
+    fig, ax = plt.subplots(figsize=(14, 7))
+
+    x = range(len(labels))
+
+    ax.bar(x, productive, label="Productive Time (h)", color="lightgreen")
+    ax.bar(x, reworks, bottom=productive, label="Rework Time (h)", color="salmon")
+
+    ax.set_xlabel("Scenario", fontsize=12)
+    ax.set_ylabel("Total Time (hours)", fontsize=12)
+    ax.set_xticks(list(x))
+    # Rotate labels for better readability if many
+    ax.set_xticklabels(labels, fontsize=10, rotation=45, ha="right")
+
+    plt.title("Rework Fraction by Scenario", fontsize=14)
+    ax.legend()
+
+    fig.tight_layout()
+    plt.savefig(filename)
+    plt.close(fig)
+
+
+def plot_hypothesis_test(
+    w_react_effort: Sequence[float],
+    g_raw_effort: Sequence[float],
+    p_value: float,
+    diff_pct: float,
+    filename: str = "phase5_hypothesis_test.png",
+) -> None:
+    """
+    Plot overlapping histograms of W-C and G-B effort.
+
+    Args:
+        w_react_effort: List of effort values for W-C.
+        g_raw_effort: List of effort values for G-B.
+        p_value: The calculated p-value.
+        diff_pct: Percentage difference in means.
+        filename: Output filename for the PNG image.
+
+    """
+    plt.figure(figsize=(10, 6))
+
+    plt.hist(w_react_effort, bins=40, alpha=0.5, label="Waterfall+AI_REACT (W-C)", color="skyblue")
+    plt.hist(g_raw_effort, bins=40, alpha=0.5, label="Agile+AI_RAW (G-B)", color="salmon")
+
+    w_mean = sum(w_react_effort) / len(w_react_effort) if w_react_effort else 0
+    g_mean = sum(g_raw_effort) / len(g_raw_effort) if g_raw_effort else 0
+
+    plt.axvline(
+        w_mean, color="blue", linestyle="dashed", linewidth=2, label=f"W-C Mean: {w_mean:,.0f}",
+    )
+    plt.axvline(
+        g_mean, color="red", linestyle="dashed", linewidth=2, label=f"G-B Mean: {g_mean:,.0f}",
+    )
+
+    plt.title("Core Hypothesis Test: Effort (W-C vs G-B)", fontsize=14)
+    plt.xlabel("Total Effort (hours)", fontsize=12)
+    plt.ylabel("Frequency", fontsize=12)
+
+    # Add text box with stats
+    textstr = f"p-value: {p_value:.4e}\nDifference: {diff_pct:+.1f}%"
+    props = {"boxstyle": "round", "facecolor": "wheat", "alpha": 0.5}
+    plt.gca().text(0.05, 0.95, textstr, transform=plt.gca().transAxes, fontsize=12,
+                   verticalalignment="top", bbox=props)
+
+    plt.legend()
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+
+    plt.tight_layout()
+    plt.savefig(filename)
+    plt.close()
+
+
+def plot_final_figures(
+    results_dict: dict[str, dict[str, float]], output_dir: str = "results/figures",
+) -> None:
+    """
+    Generate all Phase 5 figures based on the results dictionary.
+
+    Args:
+        results_dict: A dictionary mapping scenario names like 'W-C', 'G-B', 'H1-A'
+            to their metrics (mean_time, mean_effort, mean_rework).
+        output_dir: Directory to save the PNGs.
+
+    """
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+
+    # Format the data for plot_3way_comparison (AI Impact)
+    # Target format: {'Waterfall': {'no_ai': X, 'ai_raw': Y, 'ai_react': Z}, ...}
+    ai_impact_data_effort: dict[str, dict[str, float]] = {}
+
+    # We will map standard codes to labels
+    codes = {
+        "W": "Waterfall",
+        "G": "Agile",
+        "H1": "Hybrid 1",
+        "H2": "Hybrid 2",
+        "H3": "Hybrid 3",
+    }
+
+    ai_codes = {
+        "A": "no_ai",
+        "B": "ai_raw",
+        "C": "ai_react",
+    }
+
+    for pm_code, pm_name in codes.items():
+        ai_impact_data_effort[pm_name] = {}
+        for ai_code, ai_name in ai_codes.items():
+            scenario = f"{pm_code}-{ai_code}"
+            if scenario in results_dict:
+                ai_impact_data_effort[pm_name][ai_name] = results_dict[scenario].get("effort", 0.0)
+
+    plot_3way_comparison(
+        ai_impact_data_effort, filename=str(Path(output_dir) / "fig2_ai_impact.png"),
+    )
+
+    # Format for Rework fraction
+    rework_data = {}
+    for scenario, metrics in results_dict.items():
+        rework_data[scenario] = {
+            "time": metrics.get("time", 0.0),
+            "rework": metrics.get("rework", 0.0),
+        }
+
+    plot_rework_fraction(rework_data, filename=str(Path(output_dir) / "fig6_rework_fraction.png"))
+
+    # Note: Figure 1 (Baseline), Figure 4 (Phase), Figure 5 (Scaling) are
+    # expected to be generated via their respective phase scripts or
+    # run_phase5.py if it loads that data. The instructions primarily
+    # ask to have these functions available.
+
+    # Figure 3 (Hypothesis) is handled separately since it needs raw sample data,
+    # not just means. run_phase5.py will call plot_hypothesis_test directly.
+

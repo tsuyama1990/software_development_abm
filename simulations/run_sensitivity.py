@@ -1,4 +1,5 @@
-"""Phase 4 Sensitivity Analysis.
+"""
+Phase 4 Sensitivity Analysis.
 
 BLUEPRINT:
 Data Flow:
@@ -25,7 +26,7 @@ from simulations.run_phase4 import run_process
 
 def run_sensitivity_sweep() -> None:
     """Run a 20x20 sweep of ai_speed vs ai_rework and record the winner."""
-    print("Running 2D sensitivity analysis. This will take a moment...")  # noqa: T201
+    print("Running 2D sensitivity analysis. This will take a moment...")
 
     speed_range = np.linspace(3.0, 5.0, 20)
     rework_range = np.linspace(2.0, 4.0, 20)
@@ -71,7 +72,7 @@ def run_sensitivity_sweep() -> None:
     with out_file.open("w") as f:
         json.dump(results, f, indent=2)
 
-    print(f"Sensitivity sweep complete. Results saved to {out_file}")  # noqa: T201
+    print(f"Sensitivity sweep complete. Results saved to {out_file}")
 
 
 if __name__ == "__main__":

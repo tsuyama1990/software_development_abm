@@ -18,6 +18,7 @@ dev = [
     "pytest-cov>=7.1.0",
     "ruff>=0.15.20",
     "scipy>=1.18.0",
+    "scipy-stubs>=1.18.0.0",
 ]
 
 [tool.ruff]
@@ -46,6 +47,10 @@ ignore = [
     "ANN201",  # Missing return type annotation for public function
     "SLF001",  # Private member accessed (we use it for unit tests)
 ]
+
+[tool.ruff.lint.per-file-ignores]
+"abm/hybrid.py" = ["C901", "PLR0912", "SIM102", "E501", "D213"]
+
 
 [tool.mypy]
 strict = true

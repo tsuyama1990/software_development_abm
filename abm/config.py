@@ -1,17 +1,18 @@
-"""Configuration and state definitions for the software development ABM.
+"""
+Configuration and state definitions for the software development ABM.
 
 This module provides the central state enumerations and calibrated matrices
 for the FBS (Function-Behavior-Structure) Markov agents, as described by
 Bott & Mesmer (2019).
 """
 
-from enum import Enum, IntEnum
+from enum import IntEnum, StrEnum
 from typing import ClassVar
 
 from pydantic import BaseModel, ConfigDict
 
 
-class AIMode(str, Enum):
+class AIMode(StrEnum):
     """Modes for AI assistance in the software development process."""
 
     NO_AI = "no_ai"
@@ -41,7 +42,8 @@ class FBSState(IntEnum):
 
 
 class BaseTransitionMatrix:
-    """Calibrated base transition matrices for the 5-state Markov chain.
+    """
+    Calibrated base transition matrices for the 5-state Markov chain.
 
     Rows and columns correspond to FBSState (0..4).
 

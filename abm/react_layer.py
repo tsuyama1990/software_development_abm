@@ -1,4 +1,5 @@
-"""ReAct Layer for AI Agents.
+"""
+ReAct Layer for AI Agents.
 
 BLUEPRINT:
 Data Flow:
@@ -31,30 +32,32 @@ class ReActGate(BaseModel):
     react_rework: float = REACT_REWORK
 
     def apply_react(self, transition_matrix: list[list[float]]) -> list[list[float]]:
-        """Applies the ReAct rework multiplier to backward transitions.
+        """
+        Apply the ReAct rework multiplier to backward transitions.
+
         This represents the ReAct Reason->Act->Observe loop catching errors before they
         require major phase rework.
         """
-        T = copy.deepcopy(transition_matrix)
+        t_matrix = copy.deepcopy(transition_matrix)
 
         # Apply to specific known rework transitions based on FBS model
         # S -> Be (Type I/II rework)
-        T[FBSState.STRUCTURE][FBSState.EXPECTED_BEHAVIOR] *= self.react_rework
+        t_matrix[FBSState.STRUCTURE][FBSState.EXPECTED_BEHAVIOR] *= self.react_rework
 
         # F -> R (Type III rework)
-        T[FBSState.FUNCTIONS][FBSState.REQUIREMENTS] *= self.react_rework
+        t_matrix[FBSState.FUNCTIONS][FBSState.REQUIREMENTS] *= self.react_rework
 
         # S -> S (within-structure rework)
-        T[FBSState.STRUCTURE][FBSState.STRUCTURE] *= self.react_rework
+        t_matrix[FBSState.STRUCTURE][FBSState.STRUCTURE] *= self.react_rework
 
         # Re-normalize diagonal
-        for i in range(len(T)):
+        for i in range(len(t_matrix)):
             diagonal_index = i
-            non_diagonal_sum = sum(T[i]) - T[i][diagonal_index]
+            non_diagonal_sum = sum(t_matrix[i]) - t_matrix[i][diagonal_index]
             if non_diagonal_sum >= 1.0:
-                row_sum = sum(T[i])
-                T[i] = [x / row_sum for x in T[i]]
+                row_sum = sum(t_matrix[i])
+                t_matrix[i] = [x / row_sum for x in t_matrix[i]]
             else:
-                T[i][diagonal_index] = 1.0 - non_diagonal_sum
+                t_matrix[i][diagonal_index] = 1.0 - non_diagonal_sum
 
-        return T
+        return t_matrix

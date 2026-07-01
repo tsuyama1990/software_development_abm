@@ -1,4 +1,5 @@
-"""Phase 4: AI Coding Dimension Simulation.
+"""
+Phase 4: AI Coding Dimension Simulation.
 
 This module runs a 3-way comparison of 5 process models across 3 AI modes
 (NO_AI, AI_RAW, AI_REACT) to evaluate how AI speedups and ReAct mitigation
@@ -72,12 +73,12 @@ def main() -> None:
     modes = [AIMode.NO_AI, AIMode.AI_RAW, AIMode.AI_REACT]
 
     # fmt: off
-    print("Phase 4: AI Coding Dimension Comparison")  # noqa: T201
-    print(  # noqa: T201
+    print("Phase 4: AI Coding Dimension Comparison")
+    print(
         f"{'Process Mode':<15} | {'NO_AI effort':<14} | {'AI_RAW effort':<15} | "
         f"{'AI_REACT effort':<17} | {'Winner vs Agile+AI':<20}",
     )
-    print("-" * 90)  # noqa: T201
+    print("-" * 90)
     # fmt: on
 
     results = {}
@@ -105,7 +106,7 @@ def main() -> None:
             winner_text = "Yes" if winner else "No"
 
         # fmt: off
-        print(  # noqa: T201
+        print(
             f"{process:<15} | {no_ai:>12,.0f} h | {ai_raw:>13,.0f} h | "
             f"{ai_react:>15,.0f} h | {winner_text:>20}",
         )

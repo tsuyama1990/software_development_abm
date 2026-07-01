@@ -1,4 +1,5 @@
-"""Run Phase 3: Hybrid Models simulation.
+"""
+Run Phase 3: Hybrid Models simulation.
 
 This script runs the 5 process modes (Waterfall, Agile, Hybrid 1, Hybrid 2, Hybrid 3)
 and prints a comparison table of Time, Effort, and Rework metrics to verify they match

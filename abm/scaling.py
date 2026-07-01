@@ -1,4 +1,5 @@
-"""Scaling Penalties Module.
+"""
+Scaling Penalties Module.
 
 BLUEPRINT:
 Data Flow:
@@ -41,7 +42,8 @@ class ScalingPenalties:
     def get_coordination_delay(
         self, n_teams: int, n_teams_baseline: int, base_delay: float,
     ) -> float:
-        """Calculate the coordination delay.
+        """
+        Calculate the coordination delay.
 
         coordination_delay = base_delay * (n_teams / n_teams_baseline) * coordination_rate
 
@@ -59,7 +61,8 @@ class ScalingPenalties:
         return base_delay * (n_teams / n_teams_baseline) * self.config.coordination_rate
 
     def get_communication_delay(self, low_delay: float, high_delay: float) -> float:
-        """Calculate the communication barrier delay.
+        """
+        Calculate the communication barrier delay.
 
         delay ~ Bernoulli(communication_barrier_rate) * Uniform(low_delay, high_delay)
 

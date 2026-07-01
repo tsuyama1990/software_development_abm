@@ -1,4 +1,5 @@
-"""Agent Module for the FBS Markov Model.
+"""
+Agent Module for the FBS Markov Model.
 
 BLUEPRINT:
 Data Flow:
@@ -24,7 +25,8 @@ from abm.config import AgentConfig, FBSState
 
 
 class FBSAgent:
-    """An agent modeled as a first-order Markov chain traversing the FBS states.
+    """
+    An agent modeled as a first-order Markov chain traversing the FBS states.
 
     This agent uses a 5x5 transition matrix representing Function-Behavior-Structure
     states based on Bott & Mesmer (2019).
@@ -58,7 +60,8 @@ class FBSAgent:
         resistant_speed_factor: float,
         velocity_modifier: float,
     ) -> list[list[float]]:
-        """Generate a stochastic transition matrix for this agent.
+        """
+        Generate a stochastic transition matrix for this agent.
 
         Formula: T_i = mean + rand() * (high - mean).
         Applies resistance and velocity modifiers to transition probabilities.
@@ -94,7 +97,8 @@ class FBSAgent:
         return mat
 
     def step(self, u: float) -> tuple[bool, bool]:
-        """Attempt a state transition using random draw u.
+        """
+        Attempt a state transition using random draw u.
 
         Returns:
             tuple[bool, bool]: (advanced, reworked)
