@@ -1,5 +1,4 @@
-"""
-Agent Module for the FBS Markov Model.
+"""Agent Module for the FBS Markov Model.
 
 BLUEPRINT:
 Data Flow:
@@ -20,12 +19,12 @@ Key Interfaces:
 
 import numpy as np
 
+from abm.ai_layer import apply_ai_modifiers
 from abm.config import AgentConfig, FBSState
 
 
 class FBSAgent:
-    """
-    An agent modeled as a first-order Markov chain traversing the FBS states.
+    """An agent modeled as a first-order Markov chain traversing the FBS states.
 
     This agent uses a 5x5 transition matrix representing Function-Behavior-Structure
     states based on Bott & Mesmer (2019).
@@ -39,6 +38,7 @@ class FBSAgent:
 
         self.current_state = FBSState.REQUIREMENTS
         self.rework_count = 0
+        self._worked_this_step: bool = False
 
         # Generate individual matrix based on mean and high CI, applying scaling penalties
         self.transition_matrix = self._generate_matrix(
@@ -48,6 +48,7 @@ class FBSAgent:
             config.resistant_speed_factor,
             config.velocity_modifier,
         )
+        self.transition_matrix = apply_ai_modifiers(self.transition_matrix, config.ai_mode)
 
     def _generate_matrix(
         self,
@@ -57,8 +58,7 @@ class FBSAgent:
         resistant_speed_factor: float,
         velocity_modifier: float,
     ) -> list[list[float]]:
-        """
-        Generate a stochastic transition matrix for this agent.
+        """Generate a stochastic transition matrix for this agent.
 
         Formula: T_i = mean + rand() * (high - mean).
         Applies resistance and velocity modifiers to transition probabilities.
@@ -94,8 +94,7 @@ class FBSAgent:
         return mat
 
     def step(self, u: float) -> tuple[bool, bool]:
-        """
-        Attempt a state transition using random draw u.
+        """Attempt a state transition using random draw u.
 
         Returns:
             tuple[bool, bool]: (advanced, reworked)

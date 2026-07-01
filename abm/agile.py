@@ -1,5 +1,4 @@
-"""
-Agile Simulation Module.
+"""Agile Simulation Module.
 
 BLUEPRINT:
 Data Flow:
@@ -32,8 +31,7 @@ from abm.scaling import ScalingPenalties
 
 
 class AgileSimulation:
-    """
-    Simulates a software project using the Agile methodology.
+    """Simulates a software project using the Agile methodology.
 
     Features an initial planning phase and parallel, unsynchronized sprints.
     """

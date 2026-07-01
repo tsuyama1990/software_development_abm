@@ -1,5 +1,4 @@
-"""
-Hybrid Simulation Module.
+"""Hybrid Simulation Module.
 
 BLUEPRINT:
 Data Flow:

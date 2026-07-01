@@ -5,10 +5,29 @@ for the FBS (Function-Behavior-Structure) Markov agents, as described by
 Bott & Mesmer (2019).
 """
 
-from enum import IntEnum
+from enum import Enum, IntEnum
 from typing import ClassVar
 
 from pydantic import BaseModel, ConfigDict
+
+
+class AIMode(str, Enum):
+    """Modes for AI assistance in the software development process."""
+
+    NO_AI = "no_ai"
+    AI_RAW = "ai_raw"
+    AI_REACT = "ai_react"
+
+
+# AI Modifiers
+AI_SPEED = 4.0
+AI_REWORK = 3.0
+REACT_REWORK = 1.2
+
+# Sensitivity analysis ranges
+AI_SPEED_RANGE = (3.0, 5.0)
+AI_REWORK_RANGE = (2.0, 4.0)
+REACT_REWORK_RANGE = (1.1, 1.3)
 
 
 class FBSState(IntEnum):
@@ -72,3 +91,4 @@ class AgentConfig(BaseModel):
     is_resistant: bool = False
     resistant_speed_factor: float = 1.0
     velocity_modifier: float = 1.0
+    ai_mode: AIMode = AIMode.NO_AI

@@ -1,0 +1,2802 @@
+[
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.0,
+    "waterfall_effort": 974.0,
+    "agile_effort": 8877.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 1001.0,
+    "agile_effort": 9102.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 935.0,
+    "agile_effort": 9036.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 886.0,
+    "agile_effort": 8858.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 954.0,
+    "agile_effort": 8952.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 896.0,
+    "agile_effort": 8991.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 1010.0,
+    "agile_effort": 8991.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 987.0,
+    "agile_effort": 8874.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 957.0,
+    "agile_effort": 8874.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 935.0,
+    "agile_effort": 9029.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 952.0,
+    "agile_effort": 9069.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 970.0,
+    "agile_effort": 8959.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 887.0,
+    "agile_effort": 8954.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 913.0,
+    "agile_effort": 9062.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 943.0,
+    "agile_effort": 9226.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 957.0,
+    "agile_effort": 8781.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 990.0,
+    "agile_effort": 8744.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 888.0,
+    "agile_effort": 8945.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 1033.0,
+    "agile_effort": 9231.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.0,
+    "ai_rework": 4.0,
+    "waterfall_effort": 852.0,
+    "agile_effort": 9000.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.0,
+    "waterfall_effort": 1035.0,
+    "agile_effort": 8700.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 901.0,
+    "agile_effort": 8698.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 885.0,
+    "agile_effort": 8797.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 934.0,
+    "agile_effort": 9200.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 882.0,
+    "agile_effort": 9005.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 912.0,
+    "agile_effort": 9111.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 936.0,
+    "agile_effort": 8939.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 944.0,
+    "agile_effort": 9221.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 904.0,
+    "agile_effort": 9199.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 1003.0,
+    "agile_effort": 8890.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 921.0,
+    "agile_effort": 9148.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 873.0,
+    "agile_effort": 9435.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 940.0,
+    "agile_effort": 9066.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 1018.0,
+    "agile_effort": 8882.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 919.0,
+    "agile_effort": 9359.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 901.0,
+    "agile_effort": 8899.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 958.0,
+    "agile_effort": 9042.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 943.0,
+    "agile_effort": 8883.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 942.0,
+    "agile_effort": 8956.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.1052631578947367,
+    "ai_rework": 4.0,
+    "waterfall_effort": 942.0,
+    "agile_effort": 9010.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.0,
+    "waterfall_effort": 979.0,
+    "agile_effort": 9055.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 916.0,
+    "agile_effort": 9011.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 926.0,
+    "agile_effort": 8700.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 975.0,
+    "agile_effort": 8850.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 926.0,
+    "agile_effort": 9105.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 925.0,
+    "agile_effort": 9004.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 980.0,
+    "agile_effort": 8977.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 927.0,
+    "agile_effort": 9024.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 885.0,
+    "agile_effort": 8819.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 942.0,
+    "agile_effort": 8735.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 998.0,
+    "agile_effort": 8934.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 923.0,
+    "agile_effort": 8925.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 974.0,
+    "agile_effort": 8609.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 968.0,
+    "agile_effort": 9041.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 997.0,
+    "agile_effort": 8852.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 919.0,
+    "agile_effort": 8825.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 943.0,
+    "agile_effort": 9132.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 952.0,
+    "agile_effort": 9033.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 952.0,
+    "agile_effort": 8978.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.2105263157894735,
+    "ai_rework": 4.0,
+    "waterfall_effort": 916.0,
+    "agile_effort": 9238.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.0,
+    "waterfall_effort": 949.0,
+    "agile_effort": 9063.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 916.0,
+    "agile_effort": 9171.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 942.0,
+    "agile_effort": 9034.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 952.0,
+    "agile_effort": 8819.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 943.0,
+    "agile_effort": 8935.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 944.0,
+    "agile_effort": 8762.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 939.0,
+    "agile_effort": 9162.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 1002.0,
+    "agile_effort": 9063.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 952.0,
+    "agile_effort": 8827.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 935.0,
+    "agile_effort": 8916.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 942.0,
+    "agile_effort": 8893.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 931.0,
+    "agile_effort": 8973.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 884.0,
+    "agile_effort": 8826.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 906.0,
+    "agile_effort": 8751.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 958.0,
+    "agile_effort": 8720.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 941.0,
+    "agile_effort": 8841.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 973.0,
+    "agile_effort": 8932.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 948.0,
+    "agile_effort": 9037.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 916.0,
+    "agile_effort": 8854.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.3157894736842106,
+    "ai_rework": 4.0,
+    "waterfall_effort": 918.0,
+    "agile_effort": 8729.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.0,
+    "waterfall_effort": 1018.0,
+    "agile_effort": 8970.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 985.0,
+    "agile_effort": 8869.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 962.0,
+    "agile_effort": 8939.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 1055.0,
+    "agile_effort": 9157.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 910.0,
+    "agile_effort": 8812.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 1036.0,
+    "agile_effort": 9067.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 955.0,
+    "agile_effort": 8914.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 938.0,
+    "agile_effort": 8726.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 930.0,
+    "agile_effort": 8934.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 896.0,
+    "agile_effort": 9082.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 980.0,
+    "agile_effort": 8831.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 928.0,
+    "agile_effort": 9088.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 854.0,
+    "agile_effort": 9350.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 979.0,
+    "agile_effort": 8880.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 921.0,
+    "agile_effort": 8864.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 872.0,
+    "agile_effort": 8985.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 1004.0,
+    "agile_effort": 8895.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 1044.0,
+    "agile_effort": 8946.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 928.0,
+    "agile_effort": 8883.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.4210526315789473,
+    "ai_rework": 4.0,
+    "waterfall_effort": 899.0,
+    "agile_effort": 8896.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.0,
+    "waterfall_effort": 975.0,
+    "agile_effort": 8762.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 969.0,
+    "agile_effort": 9081.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 920.0,
+    "agile_effort": 8998.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 950.0,
+    "agile_effort": 8885.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 974.0,
+    "agile_effort": 9076.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 943.0,
+    "agile_effort": 8736.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 931.0,
+    "agile_effort": 8970.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 945.0,
+    "agile_effort": 9169.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 1005.0,
+    "agile_effort": 8828.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 909.0,
+    "agile_effort": 9212.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 956.0,
+    "agile_effort": 9094.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 994.0,
+    "agile_effort": 9071.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 1019.0,
+    "agile_effort": 9020.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 1035.0,
+    "agile_effort": 8906.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 979.0,
+    "agile_effort": 8842.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 930.0,
+    "agile_effort": 9015.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 932.0,
+    "agile_effort": 8838.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 965.0,
+    "agile_effort": 8915.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 920.0,
+    "agile_effort": 8977.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.526315789473684,
+    "ai_rework": 4.0,
+    "waterfall_effort": 936.0,
+    "agile_effort": 8775.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.0,
+    "waterfall_effort": 923.0,
+    "agile_effort": 9092.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 919.0,
+    "agile_effort": 8845.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 896.0,
+    "agile_effort": 9241.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 902.0,
+    "agile_effort": 8897.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 932.0,
+    "agile_effort": 8868.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 957.0,
+    "agile_effort": 8989.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 976.0,
+    "agile_effort": 9343.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 979.0,
+    "agile_effort": 8731.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 963.0,
+    "agile_effort": 8861.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 909.0,
+    "agile_effort": 9019.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 886.0,
+    "agile_effort": 9132.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 981.0,
+    "agile_effort": 8940.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 919.0,
+    "agile_effort": 9022.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 947.0,
+    "agile_effort": 8709.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 926.0,
+    "agile_effort": 8952.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 873.0,
+    "agile_effort": 8625.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 950.0,
+    "agile_effort": 9310.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 1080.0,
+    "agile_effort": 8876.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 1009.0,
+    "agile_effort": 8993.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.6315789473684212,
+    "ai_rework": 4.0,
+    "waterfall_effort": 884.0,
+    "agile_effort": 9162.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.0,
+    "waterfall_effort": 947.0,
+    "agile_effort": 8873.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 1020.0,
+    "agile_effort": 9047.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 1022.0,
+    "agile_effort": 9098.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 970.0,
+    "agile_effort": 9224.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 965.0,
+    "agile_effort": 9006.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 943.0,
+    "agile_effort": 8956.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 962.0,
+    "agile_effort": 9117.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 909.0,
+    "agile_effort": 9069.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 987.0,
+    "agile_effort": 9081.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 953.0,
+    "agile_effort": 9042.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 992.0,
+    "agile_effort": 8803.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 1034.0,
+    "agile_effort": 8807.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 880.0,
+    "agile_effort": 9285.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 935.0,
+    "agile_effort": 9055.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 872.0,
+    "agile_effort": 9121.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 907.0,
+    "agile_effort": 8760.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 919.0,
+    "agile_effort": 8807.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 1030.0,
+    "agile_effort": 9039.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 935.0,
+    "agile_effort": 8913.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.736842105263158,
+    "ai_rework": 4.0,
+    "waterfall_effort": 915.0,
+    "agile_effort": 8982.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.0,
+    "waterfall_effort": 975.0,
+    "agile_effort": 8858.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 932.0,
+    "agile_effort": 8859.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 967.0,
+    "agile_effort": 9059.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 943.0,
+    "agile_effort": 9113.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 930.0,
+    "agile_effort": 8984.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 941.0,
+    "agile_effort": 8786.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 974.0,
+    "agile_effort": 9232.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 999.0,
+    "agile_effort": 8970.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 936.0,
+    "agile_effort": 8957.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 994.0,
+    "agile_effort": 8912.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 936.0,
+    "agile_effort": 9034.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 902.0,
+    "agile_effort": 9053.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 1099.0,
+    "agile_effort": 8819.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 983.0,
+    "agile_effort": 8923.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 980.0,
+    "agile_effort": 8967.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 913.0,
+    "agile_effort": 8723.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 921.0,
+    "agile_effort": 9041.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 1042.0,
+    "agile_effort": 8925.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 943.0,
+    "agile_effort": 8829.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.8421052631578947,
+    "ai_rework": 4.0,
+    "waterfall_effort": 1003.0,
+    "agile_effort": 9066.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.0,
+    "waterfall_effort": 990.0,
+    "agile_effort": 8991.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 995.0,
+    "agile_effort": 9144.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 1005.0,
+    "agile_effort": 8651.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 953.0,
+    "agile_effort": 9071.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 993.0,
+    "agile_effort": 9049.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 922.0,
+    "agile_effort": 9219.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 990.0,
+    "agile_effort": 9347.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 879.0,
+    "agile_effort": 8935.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 999.0,
+    "agile_effort": 8915.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 968.0,
+    "agile_effort": 9191.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 959.0,
+    "agile_effort": 8909.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 955.0,
+    "agile_effort": 9193.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 958.0,
+    "agile_effort": 9003.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 917.0,
+    "agile_effort": 9397.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 931.0,
+    "agile_effort": 9031.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 917.0,
+    "agile_effort": 9010.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 896.0,
+    "agile_effort": 9093.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 960.0,
+    "agile_effort": 8689.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 992.0,
+    "agile_effort": 9133.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 3.9473684210526314,
+    "ai_rework": 4.0,
+    "waterfall_effort": 891.0,
+    "agile_effort": 9372.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.0,
+    "waterfall_effort": 957.0,
+    "agile_effort": 8960.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 923.0,
+    "agile_effort": 9052.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 900.0,
+    "agile_effort": 9143.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 976.0,
+    "agile_effort": 9224.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 1033.0,
+    "agile_effort": 8889.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 946.0,
+    "agile_effort": 9188.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 947.0,
+    "agile_effort": 9307.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 917.0,
+    "agile_effort": 9027.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 980.0,
+    "agile_effort": 8920.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 902.0,
+    "agile_effort": 8903.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 935.0,
+    "agile_effort": 9213.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 953.0,
+    "agile_effort": 8953.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 925.0,
+    "agile_effort": 9177.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 949.0,
+    "agile_effort": 9028.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 898.0,
+    "agile_effort": 8588.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 973.0,
+    "agile_effort": 9071.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 935.0,
+    "agile_effort": 8933.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 909.0,
+    "agile_effort": 8846.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 964.0,
+    "agile_effort": 9097.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.052631578947368,
+    "ai_rework": 4.0,
+    "waterfall_effort": 906.0,
+    "agile_effort": 8772.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.0,
+    "waterfall_effort": 948.0,
+    "agile_effort": 9058.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 891.0,
+    "agile_effort": 9010.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 1006.0,
+    "agile_effort": 9182.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 1008.0,
+    "agile_effort": 8918.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 950.0,
+    "agile_effort": 9004.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 1005.0,
+    "agile_effort": 8954.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 907.0,
+    "agile_effort": 8903.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 938.0,
+    "agile_effort": 8947.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 924.0,
+    "agile_effort": 8654.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 957.0,
+    "agile_effort": 8813.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 948.0,
+    "agile_effort": 9031.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 928.0,
+    "agile_effort": 8840.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 994.0,
+    "agile_effort": 8702.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 980.0,
+    "agile_effort": 9027.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 933.0,
+    "agile_effort": 9066.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 927.0,
+    "agile_effort": 9185.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 898.0,
+    "agile_effort": 8973.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 900.0,
+    "agile_effort": 9154.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 879.0,
+    "agile_effort": 8714.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.157894736842105,
+    "ai_rework": 4.0,
+    "waterfall_effort": 940.0,
+    "agile_effort": 9146.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.0,
+    "waterfall_effort": 941.0,
+    "agile_effort": 9082.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 902.0,
+    "agile_effort": 8885.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 863.0,
+    "agile_effort": 9103.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 904.0,
+    "agile_effort": 8734.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 941.0,
+    "agile_effort": 8883.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 921.0,
+    "agile_effort": 8888.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 960.0,
+    "agile_effort": 9208.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 884.0,
+    "agile_effort": 9146.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 960.0,
+    "agile_effort": 9055.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 1012.0,
+    "agile_effort": 8686.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 951.0,
+    "agile_effort": 9161.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 975.0,
+    "agile_effort": 9173.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 943.0,
+    "agile_effort": 8909.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 926.0,
+    "agile_effort": 8992.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 996.0,
+    "agile_effort": 8881.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 872.0,
+    "agile_effort": 9143.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 900.0,
+    "agile_effort": 8787.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 962.0,
+    "agile_effort": 9039.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 887.0,
+    "agile_effort": 8765.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.2631578947368425,
+    "ai_rework": 4.0,
+    "waterfall_effort": 932.0,
+    "agile_effort": 8882.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.0,
+    "waterfall_effort": 1012.0,
+    "agile_effort": 9366.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 956.0,
+    "agile_effort": 9059.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 900.0,
+    "agile_effort": 8967.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 922.0,
+    "agile_effort": 9045.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 865.0,
+    "agile_effort": 9035.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 968.0,
+    "agile_effort": 9154.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 922.0,
+    "agile_effort": 8945.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 936.0,
+    "agile_effort": 9007.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 906.0,
+    "agile_effort": 8946.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 975.0,
+    "agile_effort": 8900.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 890.0,
+    "agile_effort": 8839.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 904.0,
+    "agile_effort": 9162.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 928.0,
+    "agile_effort": 9039.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 950.0,
+    "agile_effort": 9393.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 995.0,
+    "agile_effort": 9022.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 1048.0,
+    "agile_effort": 9151.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 873.0,
+    "agile_effort": 8976.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 957.0,
+    "agile_effort": 9010.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 895.0,
+    "agile_effort": 9405.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.368421052631579,
+    "ai_rework": 4.0,
+    "waterfall_effort": 999.0,
+    "agile_effort": 9086.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.0,
+    "waterfall_effort": 966.0,
+    "agile_effort": 8729.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 912.0,
+    "agile_effort": 9110.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 944.0,
+    "agile_effort": 8958.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 967.0,
+    "agile_effort": 8757.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 901.0,
+    "agile_effort": 9038.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 959.0,
+    "agile_effort": 8923.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 986.0,
+    "agile_effort": 8975.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 863.0,
+    "agile_effort": 8751.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 787.0,
+    "agile_effort": 9139.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 928.0,
+    "agile_effort": 8969.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 844.0,
+    "agile_effort": 8961.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 893.0,
+    "agile_effort": 8987.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 931.0,
+    "agile_effort": 8984.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 984.0,
+    "agile_effort": 8996.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 970.0,
+    "agile_effort": 9116.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 903.0,
+    "agile_effort": 8962.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 958.0,
+    "agile_effort": 8783.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 927.0,
+    "agile_effort": 9092.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 931.0,
+    "agile_effort": 9123.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.473684210526316,
+    "ai_rework": 4.0,
+    "waterfall_effort": 909.0,
+    "agile_effort": 8901.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.0,
+    "waterfall_effort": 1009.0,
+    "agile_effort": 8901.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 896.0,
+    "agile_effort": 8931.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 999.0,
+    "agile_effort": 8761.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 957.0,
+    "agile_effort": 8759.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 917.0,
+    "agile_effort": 9100.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 936.0,
+    "agile_effort": 8878.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 913.0,
+    "agile_effort": 8937.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 961.0,
+    "agile_effort": 8853.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 1039.0,
+    "agile_effort": 8910.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 952.0,
+    "agile_effort": 8950.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 925.0,
+    "agile_effort": 8825.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 915.0,
+    "agile_effort": 8530.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 921.0,
+    "agile_effort": 8921.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 1003.0,
+    "agile_effort": 8594.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 932.0,
+    "agile_effort": 8843.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 990.0,
+    "agile_effort": 8742.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 927.0,
+    "agile_effort": 9342.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 964.0,
+    "agile_effort": 8961.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 955.0,
+    "agile_effort": 8928.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.578947368421053,
+    "ai_rework": 4.0,
+    "waterfall_effort": 931.0,
+    "agile_effort": 8829.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.0,
+    "waterfall_effort": 966.0,
+    "agile_effort": 8989.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 943.0,
+    "agile_effort": 8796.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 929.0,
+    "agile_effort": 9029.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 989.0,
+    "agile_effort": 8977.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 936.0,
+    "agile_effort": 8863.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 894.0,
+    "agile_effort": 8896.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 920.0,
+    "agile_effort": 8839.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 942.0,
+    "agile_effort": 8961.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 946.0,
+    "agile_effort": 9253.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 940.0,
+    "agile_effort": 9036.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 965.0,
+    "agile_effort": 9019.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 931.0,
+    "agile_effort": 9018.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 948.0,
+    "agile_effort": 9098.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 924.0,
+    "agile_effort": 9079.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 1042.0,
+    "agile_effort": 8995.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 898.0,
+    "agile_effort": 9169.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 887.0,
+    "agile_effort": 8734.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 908.0,
+    "agile_effort": 8989.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 1067.0,
+    "agile_effort": 9106.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.684210526315789,
+    "ai_rework": 4.0,
+    "waterfall_effort": 932.0,
+    "agile_effort": 8975.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.0,
+    "waterfall_effort": 902.0,
+    "agile_effort": 9158.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 1004.0,
+    "agile_effort": 8890.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 1022.0,
+    "agile_effort": 8998.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 951.0,
+    "agile_effort": 8616.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 995.0,
+    "agile_effort": 8730.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 947.0,
+    "agile_effort": 9055.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 934.0,
+    "agile_effort": 9012.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 904.0,
+    "agile_effort": 9187.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 940.0,
+    "agile_effort": 8987.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 929.0,
+    "agile_effort": 8840.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 922.0,
+    "agile_effort": 8936.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 1010.0,
+    "agile_effort": 8961.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 922.0,
+    "agile_effort": 9011.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 914.0,
+    "agile_effort": 9078.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 942.0,
+    "agile_effort": 9157.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 975.0,
+    "agile_effort": 9051.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 931.0,
+    "agile_effort": 8844.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 953.0,
+    "agile_effort": 8649.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 926.0,
+    "agile_effort": 9148.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.789473684210526,
+    "ai_rework": 4.0,
+    "waterfall_effort": 986.0,
+    "agile_effort": 9146.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.0,
+    "waterfall_effort": 905.0,
+    "agile_effort": 9254.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 919.0,
+    "agile_effort": 8831.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 875.0,
+    "agile_effort": 9061.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 983.0,
+    "agile_effort": 9019.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 906.0,
+    "agile_effort": 8910.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 981.0,
+    "agile_effort": 9102.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 1029.0,
+    "agile_effort": 8831.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 919.0,
+    "agile_effort": 9099.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 904.0,
+    "agile_effort": 8972.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 977.0,
+    "agile_effort": 9003.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 888.0,
+    "agile_effort": 9016.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 880.0,
+    "agile_effort": 8956.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 985.0,
+    "agile_effort": 9159.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 968.0,
+    "agile_effort": 9034.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 948.0,
+    "agile_effort": 8751.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 998.0,
+    "agile_effort": 8738.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 930.0,
+    "agile_effort": 8584.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 862.0,
+    "agile_effort": 9041.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 1005.0,
+    "agile_effort": 8799.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 4.894736842105263,
+    "ai_rework": 4.0,
+    "waterfall_effort": 956.0,
+    "agile_effort": 8972.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.0,
+    "waterfall_effort": 914.0,
+    "agile_effort": 8771.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.1052631578947367,
+    "waterfall_effort": 945.0,
+    "agile_effort": 8916.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.2105263157894735,
+    "waterfall_effort": 857.0,
+    "agile_effort": 9038.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.3157894736842106,
+    "waterfall_effort": 890.0,
+    "agile_effort": 8870.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.4210526315789473,
+    "waterfall_effort": 991.0,
+    "agile_effort": 8926.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.526315789473684,
+    "waterfall_effort": 940.0,
+    "agile_effort": 8797.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.6315789473684212,
+    "waterfall_effort": 937.0,
+    "agile_effort": 9006.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.736842105263158,
+    "waterfall_effort": 963.0,
+    "agile_effort": 9089.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.8421052631578947,
+    "waterfall_effort": 960.0,
+    "agile_effort": 8970.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 2.9473684210526314,
+    "waterfall_effort": 873.0,
+    "agile_effort": 9010.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 3.052631578947368,
+    "waterfall_effort": 926.0,
+    "agile_effort": 9121.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 3.1578947368421053,
+    "waterfall_effort": 928.0,
+    "agile_effort": 9124.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 3.263157894736842,
+    "waterfall_effort": 895.0,
+    "agile_effort": 8876.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 3.3684210526315788,
+    "waterfall_effort": 987.0,
+    "agile_effort": 8942.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 3.473684210526316,
+    "waterfall_effort": 983.0,
+    "agile_effort": 9056.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 3.5789473684210527,
+    "waterfall_effort": 913.0,
+    "agile_effort": 8999.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 3.6842105263157894,
+    "waterfall_effort": 893.0,
+    "agile_effort": 9188.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 3.789473684210526,
+    "waterfall_effort": 940.0,
+    "agile_effort": 8862.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 3.894736842105263,
+    "waterfall_effort": 948.0,
+    "agile_effort": 9183.0,
+    "winner": "Waterfall"
+  },
+  {
+    "ai_speed": 5.0,
+    "ai_rework": 4.0,
+    "waterfall_effort": 846.0,
+    "agile_effort": 8890.0,
+    "winner": "Waterfall"
+  }
+]

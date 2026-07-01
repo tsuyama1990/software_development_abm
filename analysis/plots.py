@@ -1,5 +1,4 @@
-"""
-Plotting utilities for Phase 1 simulation results.
+"""Plotting utilities for Phase 1 simulation results.
 
 BLUEPRINT:
 Data Flow:
@@ -15,13 +14,14 @@ Module Boundaries:
 from collections.abc import Sequence
 
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def plot_scaling_curve(
-    results: list[dict[str, float]], filename: str = "scaling_curve.png",
+    results: list[dict[str, float]],
+    filename: str = "scaling_curve.png",
 ) -> None:
-    """
-    Plot the scaling curve of team sizes versus Agile advantage.
+    """Plot the scaling curve of team sizes versus Agile advantage.
 
     Args:
         results: List of dictionaries containing scaling simulation results.
@@ -56,8 +56,7 @@ def plot_multi_process_comparison(
     metrics_dict: dict[str, dict[str, float]],
     filename: str = "phase3_comparison.png",
 ) -> None:
-    """
-    Plot a multi-process bar chart comparison for Phase 3.
+    """Plot a multi-process bar chart comparison for Phase 3.
 
     Args:
         metrics_dict: A dictionary mapping process mode names (e.g., 'Agile')
@@ -103,6 +102,80 @@ def plot_multi_process_comparison(
     plt.close(fig)
 
 
+def plot_3way_comparison(
+    metrics_dict: dict[str, dict[str, float]],
+    filename: str = "phase4_comparison.png",
+) -> None:
+    """Plot a multi-process bar chart comparison for Phase 4 (NO_AI vs AI_RAW vs AI_REACT).
+
+    Expects metrics_dict to have process mode keys, and values are dicts with AIMode keys.
+    """
+    labels = list(metrics_dict.keys())
+    no_ai = [metrics_dict[L].get("no_ai", 0.0) for L in labels]
+    ai_raw = [metrics_dict[L].get("ai_raw", 0.0) for L in labels]
+    ai_react = [metrics_dict[L].get("ai_react", 0.0) for L in labels]
+
+    x = np.arange(len(labels))
+    width = 0.25
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+
+    ax.bar(x - width, no_ai, width, label="NO_AI", color="lightgray")
+    ax.bar(x, ai_raw, width, label="AI_RAW", color="salmon")
+    ax.bar(x + width, ai_react, width, label="AI_REACT", color="skyblue")
+
+    ax.set_xlabel("Process Mode", fontsize=12)
+    ax.set_ylabel("Total Effort (hours)", fontsize=12)
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels, fontsize=11)
+
+    plt.title("Phase 4: AI Mode Comparison Across Processes", fontsize=14)
+    ax.legend()
+
+    fig.tight_layout()
+    plt.savefig(filename)
+    plt.close(fig)
+
+
+def plot_phase_diagram(
+    results: list[dict[str, float | str]],
+    filename: str = "phase4_diagram.png",
+) -> None:
+    """Plot the phase diagram from a parameter sweep.
+
+    results should have ai_speed, ai_rework, and winner.
+    """
+    speeds = sorted({float(r["ai_speed"]) for r in results})
+    reworks = sorted({float(r["ai_rework"]) for r in results})
+
+    z_matrix = np.zeros((len(speeds), len(reworks)))
+
+    for r in results:
+        i = speeds.index(float(r["ai_speed"]))
+        j = reworks.index(float(r["ai_rework"]))
+        z_matrix[i, j] = 1 if r["winner"] == "Waterfall" else 0
+
+    plt.figure(figsize=(8, 6))
+
+    # Let's plot with extent to show actual axes
+    plt.imshow(
+        z_matrix.T,
+        origin="lower",
+        extent=(min(speeds), max(speeds), min(reworks), max(reworks)),
+        aspect="auto",
+        cmap=plt.cm.coolwarm,
+    )
+
+    plt.colorbar(ticks=[0, 1], label="Winner (0=Agile, 1=Waterfall)")
+    plt.title("Phase Diagram: AI Speed vs Rework Penalty", fontsize=14)
+    plt.xlabel("AI Speed Multiplier", fontsize=12)
+    plt.ylabel("AI Rework Multiplier", fontsize=12)
+
+    plt.tight_layout()
+    plt.savefig(filename)
+    plt.close()
+
+
 def plot_histogram(
     data: Sequence[float],
     title: str,
@@ -110,8 +183,7 @@ def plot_histogram(
     filename: str,
     color: str = "skyblue",
 ) -> None:
-    """
-    Plot and save a histogram of simulation results.
+    """Plot and save a histogram of simulation results.
 
     Args:
         data: Sequence of numeric values to plot.
@@ -127,7 +199,11 @@ def plot_histogram(
     # Calculate mean to add a vertical line
     mean_val = sum(data) / len(data) if data else 0
     plt.axvline(
-        mean_val, color="red", linestyle="dashed", linewidth=2, label=f"Mean: {mean_val:,.0f}",
+        mean_val,
+        color="red",
+        linestyle="dashed",
+        linewidth=2,
+        label=f"Mean: {mean_val:,.0f}",
     )
 
     plt.title(title, fontsize=14)
